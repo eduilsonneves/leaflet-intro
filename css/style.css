@@ -9,10 +9,10 @@ body,html {
 }
 
 body {
-	background-color: rgb(139, 168, 151);
+	background-color: rgb(236, 242, 238);
     display: grid;
-	grid-template-rows: 80px 1fr 50px;
-	grid-template-columns: 300px 1fr;
+	grid-template-rows: 100px 1fr 30px;
+	grid-template-columns: 200px 1fr;
 	grid-template-areas: 
 	"header header"
 	"sidebar content"
@@ -20,6 +20,8 @@ body {
 }
 
 .header {
+	background: url(imagens/barra_grande2.jpg);
+	background-size: 1300px 100px;
 	grid-area: header;
 	padding:10px;
 	background-color: rgb(93, 162, 122);
@@ -29,11 +31,13 @@ body {
 
 .content {
 	grid-area: content;
-    
 }
 
 .footer {
+	text-align: right;
+	font-style: italic;
+	font-size: 12px;
 	grid-area: footer;
 	padding:10px;
-	background-color: rgb(227, 238, 231);
+	background-color: rgb(236, 242, 238);
 }

@@ -5,5 +5,5 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var marker = L.marker([-5.08827,-42.81056]).addTo(map)
-		.bindPopup('LAEIFPI - IFPI<br> Where Eduilson spends most of his work time')
+		.bindPopup('<a href="http://www.ifpi.edu.br">LAEIFPI - IFPI</a><br> Where Eduilson spends most of his work time')
 		.openPopup();	
