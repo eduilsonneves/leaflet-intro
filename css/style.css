@@ -9,13 +9,13 @@ body,html {
 }
 
 body {
-	background-color: rgb(236, 242, 238);
+	/*background-color: rgb(236, 242, 238); */
     display: grid;
 	grid-template-rows: 100px 1fr 30px;
-	grid-template-columns: 200px 1fr;
+	grid-template-columns: 1fr 300px;
 	grid-template-areas: 
 	"header header"
-	"sidebar content"
+	"content sidebar"
 	"footer footer";
 }
 
@@ -33,6 +33,10 @@ body {
 	grid-area: content;
 }
 
+.sidebar {
+	grid-area: sidebar;
+}
+
 .footer {
 	text-align: right;
 	font-style: italic;
@@ -40,4 +44,17 @@ body {
 	grid-area: footer;
 	padding:10px;
 	background-color: rgb(236, 242, 238);
+}
+
+#id_picture{
+	text-align: center;
+	background-color: rgb(238, 241, 244);
+}
+
+#info_bar{
+	text-align: center;
+	font-style: bold;
+	color: white;
+	font-size: 18px;
+	background-color: rgb(55, 55, 55);
 }
