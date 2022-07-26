@@ -74,7 +74,81 @@ let data = [
 		'title':'Washington - DC',
 		'lat': 38.89333681545334, 
 		'lon': -77.01055408319965
+	},
+	{
+		'title':'Wien',
+		'lat': 48.20172499496315, 
+		'lon': 16.38416934088646
+	},
+	{
+		'title':'Praha',
+		'lat': 50.086798281964114, 
+		'lon': 14.428706578935302
+	},
+	{
+		'title':'Dresden',
+		'lat': 51.051775768044195, 
+		'lon': 13.738844317208226
+	},
+	{
+		'title':'Münster',
+		'lat': 51.95883600118282, 
+		'lon': 7.626812529733272
+	},
+	{
+		'title':'Amsterdam',
+		'lat': 52.37481351636909, 
+		'lon': 4.895710991493268
+	},
+	{
+		'title':'Berlin',
+		'lat': 52.5148713326038, 
+		'lon': 13.388988141306054
+	},
+	{
+		'title':'Cambridge',
+		'lat': 52.205975432534466, 
+		'lon': 0.11985596673989965
+	},
+	{
+		'title':'London',
+		'lat': 51.50555492582728, 
+		'lon': -0.108675632267634
+	},
+	{
+		'title':'Tallahassee',
+		'lat': 30.44146449773943, 
+		'lon': -84.2850216973807
+	},
+	{
+		'title':'Gainesville',
+		'lat': 29.65561546374546, 
+		'lon': -82.35011572467816
+	},
+	{
+		'title':'Panama City',
+		'lat': 30.15804923911138, 
+		'lon': -85.65780080409598
+	},
+	{
+		'title':'Kennedy Space Center',
+		'lat': 28.56877344279317, 
+		'lon': -80.64969564718162
+	},
+	{
+		'title':'Walt Disney World',
+		'lat': 28.369822510521825, 
+		'lon': -81.51569034612257
+	},
+	{
+		'title':'Tampa',
+		'lat': 28.068142451872514, 
+		'lon': -82.6531190562146
 	}
+	 
+	 
+	 
+	 
 	 
 ]
 
@@ -91,7 +165,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var marker = L.marker([-5.08827,-42.81056]).addTo(map)
-		.bindPopup('<a href="http://www.ifpi.edu.br">LAEIFPI - IFPI</a><br> Where Eduilson spends most of his work time')
+		.bindPopup('<a href="http://www.ifpi.edu.br">LAEIFPI - IFPI</a><br> Here, I spend my work time')
 		.openPopup();	
 
 // loop through data
